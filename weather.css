@@ -1,0 +1,151 @@
+
+/* Universal styling */
+
+@media only screen and (max-width: 500px) {
+	div.app-wrapper-main {
+		width: 300px;
+		height: 350px;	
+	}
+
+	div.app-wrapper-main {
+		box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.5),
+				10px 10px 10px rgba(0, 0, 0, 0.41);
+	}
+
+	div.button-wrapper {
+		display: flex;
+		align-self: flex-start;
+		margin-top: 30px;
+	}
+
+	#result {
+		margin-top: 20px;
+	}
+
+	#overlay {
+		height: 100%;
+		border-radius: 25px;
+	}
+
+	#location {
+		font-size: smaller;
+	}
+	
+	#temperature {
+		font-size: 20px;
+		margin-top: 0px;
+	}
+	
+	#picture img {
+		height: 40%;
+		width: 40%;
+	} 
+
+	#description {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: smaller;
+	}
+}
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: #f3f4f6;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Main */
+
+.app-wrapper-main {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 400px;
+	height: 500px;
+	background-image: url(img/clifton-suspension-bridge.png);
+	border-radius: 25px;
+	box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+				15px 15px 15px rgba(0, 0, 0, 0.41);
+}
+
+
+.button-wrapper {
+	text-align: center;
+	margin: 7px;
+	display: flex;
+	align-self: flex-end;
+}
+
+button {
+	border-radius: 25px;
+	padding: 10px;
+	background-color: rgb(213, 134, 122);
+	border: 1px solid rgb(213, 134, 122);
+	letter-spacing: 0.8px;
+	color: #f3f4f6;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	cursor: pointer;
+}
+
+.overlay-div {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	border-radius: 25px 25px 0px 0px; 
+	background: linear-gradient(to bottom, rgba(255,255,255), rgb(156, 183, 194));
+	opacity: 0.4;
+	display: none;	
+}
+
+
+/* Results */
+
+.app-wrapper-result {
+	display: none;
+	position: absolute;
+	margin-top: 50px;
+	width: 55%;
+	height: 50%;
+	animation: drop 1.5s ease;
+	border-radius: 25px;
+	background: linear-gradient(to bottom, rgba(255,255,255), rgb(156, 183, 194));
+	text-align: center;
+}
+  
+.location-div {
+	font-size: larger;
+	margin-top: 15px;
+}
+
+.temperature-div {
+	font-size: 35px;
+	margin-top: 0px;
+}
+
+img {
+	height: 50%;
+	width: 50%;
+}
+
+.description-div {
+	margin-top: 20px;
+	font-size: 17px;
+}
