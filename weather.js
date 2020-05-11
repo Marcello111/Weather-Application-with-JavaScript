@@ -18,7 +18,7 @@
 
 
   // API key
-  const key= "6489ee30ecaa7bf763098f6967131257";
+  const key= "";
 
 
   show.addEventListener("click", function(){
