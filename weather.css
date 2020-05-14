@@ -80,8 +80,7 @@ body {
 	height: 500px;
 	background-image: url(img/clifton-suspension-bridge.png);
 	border-radius: 25px;
-	box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
-				15px 15px 15px rgba(0, 0, 0, 0.41);
+	box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.41);
 }
 
 
