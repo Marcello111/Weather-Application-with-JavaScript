@@ -1,0 +1,20 @@
+Test Case Name: 
+User is able to display the current weather in Bristol
+
+Prerequisites: 
+Latest version of Google Chrome, Mozilla Firefox or Opera
+
+Test Steps: 
+1. Open Google Chrome/Mozilla Firefox/Opera
+2. Go to https://marcell.developme.space/6_Weather/weather.html
+3. Click on the "Show Weather" button
+
+Expected Result:
+Bristol, GB, icon, temperature, description of the weather is displayed on the screen.
+
+Actual Result:
+Bristol, GB, icon, temperature, description of the weather is displayed on the screen.
+
+Test Result:
+Pass
+
