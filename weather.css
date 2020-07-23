@@ -18,33 +18,37 @@
 		margin-top: 30px;
 	}
 
-	#result {
+	div.app-wrapper-result {
 		margin-top: 20px;
 	}
 
-	#overlay {
+	div.overlay-div {
 		height: 100%;
 		border-radius: 25px;
 	}
 
-	#location {
+	div.location-div {
 		font-size: smaller;
 	}
 	
-	#temperature {
+	div.temperature-div {
 		font-size: 20px;
 		margin-top: 0px;
 	}
 	
-	#picture img {
+	div.icon img {
 		height: 40%;
 		width: 40%;
 	} 
 
-	#description {
+	div.description-div {
 		margin-top: 15px;
 		margin-bottom: 15px;
 		font-size: smaller;
+	}
+
+	div.home-page-div, p.attribution {
+		display: none;
 	}
 }
 
