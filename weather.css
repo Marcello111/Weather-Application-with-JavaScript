@@ -33,7 +33,7 @@
 	
 	div.temperature-div {
 		font-size: 20px;
-		margin-top: 0px;
+		margin-top: 0;
 	}
 	
 	div.icon img {
@@ -59,7 +59,7 @@
 	}
 	100% {
 		opacity: 1;
-		transform: translateY(0px);
+		transform: translateY(0);
 	}
 }
 
@@ -140,7 +140,7 @@ button {
 
 .temperature-div {
 	font-size: 35px;
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 img {
